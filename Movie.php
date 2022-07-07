@@ -11,7 +11,7 @@ class Movie {
     public $lingua_originale;
     public $lingua_audio;
 
-    public function __construct(string $titolo, string $titolo_originale,string $regista, int $anno, string $genere, int $age, string $accesso, string $lingua_originale )
+    public function __construct(string $titolo, string $titolo_originale,string $regista, int $anno, string $genere, int $age, string $lingua_originale )
     {
         $this->titolo = $titolo;
         $this->titolo_originale = $titolo_originale;
@@ -19,7 +19,6 @@ class Movie {
         $this->anno= $anno;
         $this->genere= $genere;
         $this->age= $age;
-        $this->accesso= $accesso;
         $this->lingua_originale= $lingua_originale;
         
       
