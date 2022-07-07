@@ -23,9 +23,73 @@ $secondo_film->changeLanguage('en');
     <title>Movies</title>
 </head>
 <body>
-    <h3>
-        <?= ?>
-    </h3>
+
+    <div>
+        <h2>
+            Titolo:
+            <?=$primo_film->titolo?>
+        </h2>
+        <ul>
+            <li> Titolo originale:
+            <?=$primo_film->titolo_originale?>
+            </li>
+            <li>Regista:
+            <?=$primo_film->regista?>
+            </li>
+            <li>Anno di uscita
+            <?=$primo_film->anno?>
+            </li>
+            <li>Genere
+            <?=$primo_film->genere?>
+            </li>
+            <li>Vietato ai minori di:
+            <?=$primo_film->age?> anni
+            </li>
+            <li>Controllo età:
+            <?=$primo_film->accesso?>
+            </li>
+            <li>Lingua originale:
+            <?=$primo_film->lingua_originale?>
+            </li>
+            <li>Lingua selezionata dall'utente:
+            <?=$primo_film->lingua_audio?>
+            </li>
+        </ul>
+    </div>
+
+    <div>
+    <h2>
+            Titolo:
+            <?=$secondo_film->titolo?>
+        </h2>
+        <ul>
+            <li> Titolo originale:
+            <?=$secondo_film->titolo_originale?>
+            </li>
+            <li>Regista:
+            <?=$secondo_film->regista?>
+            </li>
+            <li>Anno di uscita
+            <?=$secondo_film->anno?>
+            </li>
+            <li>Genere
+            <?=$secondo_film->genere?>
+            </li>
+            <li>Vietato ai minori di:
+            <?=$secondo_film->age?> anni
+            </li>
+            <li>Controllo età:
+            <?=$secondo_film->accesso?>
+            </li>
+            <li>Lingua originale:
+            <?=$secondo_film->lingua_originale?>
+            </li>
+            <li>Lingua selezionata dall'utente:
+            <?=$secondo_film->lingua_audio?>
+            </li>
+        </ul>
+
+    </div>
     
 </body>
 </html>
